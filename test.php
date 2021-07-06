@@ -13,4 +13,8 @@
   $object = new Test();
   var_dump($object);
   echo "<br>";
+  $path = "https://www.w3resource.com/index.php";
+    echo substr($path, 27);
+    // var_dump(explode(" " ,$path));
+
 ?>

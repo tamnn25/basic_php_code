@@ -18,3 +18,12 @@
     // var_dump(explode(" " ,$path));
 
 ?>
+<hr>
+<?php
+  $a = 'name';
+  $name = 'Anh Tên Em';
+  echo $$a;
+  echo '<br>';
+  $a = 1; {$a=2;}
+  echo $a;
+?>
